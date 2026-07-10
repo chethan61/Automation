@@ -9,9 +9,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AbstractComponents {
 	WebDriver driver;
+	WebDriver driver1;
+	WebDriver driver2;
 	public AbstractComponents(WebDriver driver) {
 		this.driver=driver;
-		
+		this.driver1=driver;
+		this.driver2=driver;
 	}
 	
 	public void waitForElement(By findby) {

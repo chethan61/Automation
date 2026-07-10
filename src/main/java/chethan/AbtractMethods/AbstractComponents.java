@@ -14,8 +14,7 @@ public class AbstractComponents {
 	public AbstractComponents(WebDriver driver) {
 		this.driver=driver;
 		this.driver1=driver;
-		this.driver2=driver;
-		def;
+		this.driver2=driver;		
 	}
 	
 	public void waitForElement(By findby) {
